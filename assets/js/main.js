@@ -70,6 +70,8 @@
       behavior: 'smooth'
     })
   }
+  
+  
 
   /**
    * Back to top button
