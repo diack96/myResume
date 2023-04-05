@@ -269,3 +269,15 @@
   new PureCounter();
 
 })()
+let bouton = document.getElementById("bouton");
+let elementsCaches = document.getElementById("elements-caches");
+
+bouton.addEventListener("click", function() {
+    if (elementsCaches.style.display === "none") {
+        elementsCaches.style.display = "block";
+        bouton.innerHTML = "Masquer";
+    } else {
+        elementsCaches.style.display = "none";
+        bouton.innerHTML = "Afficher plus de logos";
+    }
+});

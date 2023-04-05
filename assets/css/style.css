@@ -1233,3 +1233,19 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+#bouton {
+  background-color: #008CBA; /* couleur de fond */
+  border: none; /* pas de bordure */
+  color: white; /* couleur du texte */
+  padding: 10px 20px; /* espace intérieur du bouton */
+  text-align: center; /* centrage du texte */
+  text-decoration: none; /* pas de soulignement */
+  display: inline-block; /* affichage en ligne */
+  font-size: 16px; /* taille de police */
+  margin: 10px 0; /* marge autour du bouton */
+  cursor: pointer; /* curseur pointer au survol */
+  border-radius: 5px; /* bordure arrondie */
+}
+#bouton:hover {
+  background-color: #006080; /* couleur de fond au survol */
+}
